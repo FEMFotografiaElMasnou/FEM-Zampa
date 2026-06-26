@@ -1,0 +1,192 @@
+[
+  {
+    "id": "u_1775035636760",
+    "display_name": "Toni Garcia Camps",
+    "email": "tonigfotos@gmail.com",
+    "password": "tonigfotos11",
+    "role": "participant",
+    "created_at": "2026-04-01T09:27:16.76+00:00",
+    "zampa_role": "user",
+    "submitted_at": null
+  },
+  {
+    "id": "u_1774557887819",
+    "display_name": "Alfred",
+    "email": "alfred1947@gmail.com",
+    "password": "123456",
+    "role": "participant",
+    "created_at": "2026-03-26T20:44:47.819+00:00",
+    "zampa_role": "user",
+    "submitted_at": null
+  },
+  {
+    "id": "u_1774373540112",
+    "display_name": "Pablo",
+    "email": "pvillaverde82@gmail.com",
+    "password": "123456",
+    "role": "admin",
+    "created_at": "2026-03-24T17:32:20.112+00:00",
+    "zampa_role": "editor",
+    "submitted_at": null
+  },
+  {
+    "id": "u_1774963883874",
+    "display_name": "Jesús Grinyó i Quer",
+    "email": "jesusgrinyoiquer@gmail.com",
+    "password": "Ecda555Ecda555",
+    "role": "participant",
+    "created_at": "2026-03-31T13:31:23.874+00:00",
+    "zampa_role": "user",
+    "submitted_at": null
+  },
+  {
+    "id": "u_1774966085163",
+    "display_name": "Ana Casas Suñe",
+    "email": "anacasas157@gmail.com",
+    "password": "ana1962",
+    "role": "participant",
+    "created_at": "2026-03-31T14:08:05.163+00:00",
+    "zampa_role": "user",
+    "submitted_at": null
+  },
+  {
+    "id": "u_1774973978846",
+    "display_name": "Laura Pérez Riba",
+    "email": "lpriba@gmail.com",
+    "password": "Carlos8987#",
+    "role": "participant",
+    "created_at": "2026-03-31T16:19:38.846+00:00",
+    "zampa_role": "user",
+    "submitted_at": null
+  },
+  {
+    "id": "u_1774979899381",
+    "display_name": "Juan Loewe Tarmann",
+    "email": "juan.loewe@telefonica.net",
+    "password": "018600",
+    "role": "participant",
+    "created_at": "2026-03-31T17:58:19.381+00:00",
+    "zampa_role": "user",
+    "submitted_at": null
+  },
+  {
+    "id": "u_1774980778403",
+    "display_name": "Mon Guallarte Salvat",
+    "email": "mongusa64@gmail.com",
+    "password": "Masnou_2023",
+    "role": "participant",
+    "created_at": "2026-03-31T18:12:58.403+00:00",
+    "zampa_role": "user",
+    "submitted_at": null
+  },
+  {
+    "id": "u_1775028574351",
+    "display_name": "Carme Garcia",
+    "email": "cgllorens@gmail.com",
+    "password": "Penelope67",
+    "role": "participant",
+    "created_at": "2026-04-01T07:29:34.351+00:00",
+    "zampa_role": "user",
+    "submitted_at": null
+  },
+  {
+    "id": "u_1775107725466",
+    "display_name": "Aina Ricart i Ramon",
+    "email": "ainaricart@gmail.com",
+    "password": "A.r1c4rt326",
+    "role": "participant",
+    "created_at": "2026-04-02T05:28:45.466+00:00",
+    "zampa_role": "user",
+    "submitted_at": null
+  },
+  {
+    "id": "u_1775666983718",
+    "display_name": "Jordi Roma",
+    "email": "romajordi@gmail.com",
+    "password": "berganti77",
+    "role": "participant",
+    "created_at": "2026-04-08T16:49:43.718+00:00",
+    "zampa_role": "user",
+    "submitted_at": null
+  },
+  {
+    "id": "u_1775824203458",
+    "display_name": "Eduard Gisbert",
+    "email": "edu@edugisbert.com",
+    "password": "Vida2020",
+    "role": "participant",
+    "created_at": "2026-04-10T12:30:03.458+00:00",
+    "zampa_role": "user",
+    "submitted_at": null
+  },
+  {
+    "id": "u_1774962189305",
+    "display_name": "Enric Mendez",
+    "email": "enricmr@gmail.com",
+    "password": "FEMPass",
+    "role": "admin",
+    "created_at": "2026-03-31T13:03:09.305+00:00",
+    "zampa_role": "user",
+    "submitted_at": null
+  },
+  {
+    "id": "u_1774559778569",
+    "display_name": "Marta Albertí Miserachs",
+    "email": "pledefotos@gmail.com",
+    "password": "maclahe1962",
+    "role": "participant",
+    "created_at": "2026-03-26T21:16:18.569+00:00",
+    "zampa_role": "user",
+    "submitted_at": null
+  },
+  {
+    "id": "u_1774969389219",
+    "display_name": "Nuria Pleguezuelo",
+    "email": "hiromiple@hotmail.com",
+    "password": "FEMple58",
+    "role": "participant",
+    "created_at": "2026-03-31T15:03:09.219+00:00",
+    "zampa_role": "user",
+    "submitted_at": null
+  },
+  {
+    "id": "u_1779614054036",
+    "display_name": "Dori Asensio",
+    "email": "dorisasensio@hotmail.com",
+    "password": "trompetas4000",
+    "role": "participant",
+    "created_at": "2026-05-24T09:14:14.036+00:00",
+    "zampa_role": "user",
+    "submitted_at": null
+  },
+  {
+    "id": "u_1779644516606",
+    "display_name": "José Antonio Sancho Pastor",
+    "email": "contacto@joseantoniosancho.com",
+    "password": "Alquimia52+",
+    "role": "participant",
+    "created_at": "2026-05-24T17:41:56.606+00:00",
+    "zampa_role": "user",
+    "submitted_at": null
+  },
+  {
+    "id": "u_1775141142943",
+    "display_name": "Esteve De La Paz",
+    "email": "estemarbru@gmail.com",
+    "password": "eptvota",
+    "role": "participant",
+    "created_at": "2026-04-02T14:45:42.943+00:00",
+    "zampa_role": "user",
+    "submitted_at": null
+  },
+  {
+    "id": "usr_1780738611829",
+    "display_name": "Harald Hausleithner ",
+    "email": "harald@imagin.at",
+    "password": "hjOtbuzC$6U6Ql^1!48H",
+    "role": "participant",
+    "created_at": "2026-06-06T09:36:51.791418+00:00",
+    "zampa_role": "user",
+    "submitted_at": null
+  }
+]

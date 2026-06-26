@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <!-- Soft shadow drop under the circle -->
+  <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+    <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#000" flood-opacity="0.15" />
+  </filter>
+  
+  <!-- Outer deep cobalt blue background circle -->
+  <circle cx="256" cy="256" r="230" fill="#2E50A2" filter="url(#shadow)" />
+  
+  <!-- Inner white circular disc -->
+  <circle cx="256" cy="256" r="180" fill="#FFFFFF" />
+  
+  <!-- Stylized deep cobalt blue arches/lines inside the white disc -->
+  <!-- Recreating the three curves from the user's attachment -->
+  <g fill="none" stroke="#2E50A2" stroke-width="42" stroke-linecap="round">
+    <!-- Left curve -->
+    <path d="M 185 155 C 135 210, 135 302, 185 357" />
+    <!-- Middle curve -->
+    <path d="M 255 125 C 190 190, 190 322, 255 387" />
+    <!-- Right curve / small circle element to resemble a camera lens aperture or food bit -->
+    <path d="M 330 180 C 285 220, 285 292, 330 332" />
+  </g>
+</svg>

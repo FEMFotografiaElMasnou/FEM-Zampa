@@ -1,0 +1,56 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Bebas Neue", sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+
+  --color-bg1: #04091e;
+  --color-bg2: #071233;
+  --color-surface1: #0d1d4a;
+  --color-surface2: #112260;
+  --color-surface3: #1a2f78;
+  --color-brand-border: rgba(80,130,255,0.22);
+  --color-brand-border-high: rgba(80,130,255,0.5);
+  --color-brand-accent: #4f8fff;
+  --color-brand-accent-glow: rgba(79,143,255,0.35);
+  --color-brand-text: #e8f0ff;
+  --color-brand-text-muted: #8aa4d0;
+}
+
+body {
+  background: var(--color-bg1);
+  color: var(--color-brand-text);
+  font-family: var(--font-sans);
+  min-height: 100vh;
+  min-height: 100dvh;
+  margin: 0;
+  overflow-x: hidden;
+  background-image:
+    radial-gradient(ellipse 70% 50% at 50% -10%, #0d2a6e 0%, transparent 60%),
+    radial-gradient(ellipse 40% 30% at 80% 90%, #091540 0%, transparent 50%);
+}
+
+/* Subtle noise texture layer */
+body::before {
+  content: '';
+  position: fixed;
+  inset: 0;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.035'/%3E%3C/svg%3E");
+  pointer-events: none;
+  z-index: 9998;
+}
+
+@keyframes spin {
+  to { transform: rotate(360deg); }
+}
+
+.loader {
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  border: 2px solid rgba(79, 143, 255, 0.2);
+  border-top-color: var(--color-brand-accent);
+  border-radius: 50%;
+  animation: spin 0.7s linear infinite;
+}

@@ -1,0 +1,6 @@
+{
+  "name": "FEM-Zampa",
+  "description": "Aplicació de gestió per a FEM-Zampa.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
