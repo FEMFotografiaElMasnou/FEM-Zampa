@@ -151,7 +151,7 @@ export default function ZampaAdmin({
         const file = files[i];
         setUploadProgressText(`Pujant: imatge ${i + 1} de ${files.length} ("${file.name}")...`);
         const compressed = await compressImage(file);
-        const folder = `FemReptes/Zampa_${currentEdition?.id}/${projId}`;
+        const folder = `Zampa/${currentEdition?.id}/${projId}`;
         const url = await uploadToCloudinary(compressed, folder);
         
         const nextIndex = ((activeProject as any)?.photos?.length || 0) + successCount;
