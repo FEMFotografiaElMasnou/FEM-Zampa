@@ -951,7 +951,7 @@ export default function App() {
                 <div className="text-right">
                   <p className="text-xs font-bold text-brand-text leading-none">{session.user.display_name}</p>
                   <span className="text-[9px] uppercase font-mono tracking-wider text-brand-text-muted">
-                    {session.user.role === 'admin' ? 'Administrador 🔧' : session.user.zampa_role === 'editor' ? 'Editor Zampa 📝' : 'Club Partner 👤'}
+                    {session.user.role === 'admin' ? 'Admin FEM 🔧' : session.user.zampa_role === 'admin' ? 'Admin Zampa 🔧' : session.user.zampa_role === 'editor' ? 'Editor Zampa 📝' : 'Soci FEM 👤'}
                   </span>
                 </div>
                 <button
