@@ -187,7 +187,7 @@ Els socis poden consultar edicions anteriors des d'un selector desplegable a la 
 
 ---
 
-## 9. Components compartits
+## 9. Components compartits.
 
 - **`ConfirmModal`**: diàlegs de confirmació personalitzats (sense `window.confirm` natiu) per a accions crítiques: eliminar projectes, esborrar fotografies, enviar el rànquing definitiu o tancar/finalitzar una edició.
 - **`FullscreenViewer`**: visualitzador d'imatges a pantalla completa amb zoom, desplaçament tàctil i descàrrega, utilitzat tant a l'administració com a les pantalles de soci.
