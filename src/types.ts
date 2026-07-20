@@ -8,53 +8,6 @@ export interface User {
   created_at?: string;
 }
 
-export interface Objective {
-  id: string;
-  title: string;
-  description: string;
-  status: 'active' | 'finished' | 'inactive';
-  uploads_enabled: boolean;
-  voting_enabled: boolean;
-  start_date?: string;
-  end_date?: string;
-  created_by?: string;
-}
-
-export interface PhotoSubmission {
-  id: string;
-  userId: string;
-  objectiveId: string;
-  fileName: string;
-  url: string;
-  originalUrl?: string;
-  fileSize?: string;
-  published: boolean;
-  revealed: boolean;
-  submitted_at?: string;
-}
-
-export interface Vote {
-  id: string;
-  userId: string;
-  photoId: string;
-  objectiveId: string;
-  creativity: number;
-  theme: number;
-  composition: number;
-  created_at?: string;
-}
-
-export interface AppSettings {
-  uploads_enabled: boolean;
-  voting_enabled: boolean;
-  namesRevealed: boolean;
-  rankingHidden: boolean;
-  force_hide_upload: boolean;
-  force_hide_vote: boolean;
-  force_hide_resultats: boolean;
-  force_hide_classificacio: boolean;
-}
-
 // Zampa Custom Interfaces
 export interface ZampaEdition {
   id: number; // Year, e.g., 2026
