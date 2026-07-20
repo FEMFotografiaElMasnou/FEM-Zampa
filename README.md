@@ -2,7 +2,7 @@
 
 Aplicació web de la FEM per gestionar i votar els **Premis Zampa**: exposició i valoració dels portfolis fotogràfics presentats a concurs pels socis.
 
-Documentació funcional i tècnica completa a [`DOCUMENTACIO.md`](./DOCUMENTACIO.md).
+Documentació funcional i tècnica completa a [`FEM-Zampa.md`](./FEM-Zampa.md).
 
 ## Posada en marxa local
 
